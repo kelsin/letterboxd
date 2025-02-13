@@ -1,4 +1,5 @@
 MODEL (
+  name kelsin.diary,
   kind FULL
 );
 
@@ -10,4 +11,4 @@ SELECT
   rating as rating,
   rewatch is not null as rewatch,
   string_split(tags, ', ')::VARCHAR[] as tags
-FROM letterboxd.diary;
+FROM kelsin.original_diary;

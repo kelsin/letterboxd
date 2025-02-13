@@ -1,4 +1,5 @@
 MODEL (
+  name kelsin.frida,
   kind FULL
 );
 
