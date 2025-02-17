@@ -1,5 +1,4 @@
 MODEL (
-  name kelsin.films_by_diary_tag,
   kind FULL
 );
 

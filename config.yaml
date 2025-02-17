@@ -6,5 +6,5 @@ gateways:
 default_gateway: tobiko_cloud
 
 model_defaults:
-  dialect: duckdb
+  dialect: postgresql
   start: 2025-02-11

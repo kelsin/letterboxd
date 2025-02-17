@@ -1,14 +1,13 @@
 MODEL (
-  name kelsin.diary,
   kind FULL
 );
 
 SELECT
-  "watched date"::DATE as date,
+  "Watched Date"::DATE as date,
   name as film,
   year as year,
-  "letterboxd uri" as uri,
+  "Letterboxd URI" as uri,
   rating as rating,
   rewatch is not null as rewatch,
-  string_split(tags, ', ')::VARCHAR[] as tags
+  STRING_TO_ARRAY(tags, ', ') as tags
 FROM kelsin.original_diary;

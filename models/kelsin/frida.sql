@@ -1,5 +1,4 @@
 MODEL (
-  name kelsin.frida,
   kind FULL
 );
 
@@ -12,4 +11,4 @@ SELECT
   rewatch,
   tags,
 FROM kelsin.diary
-WHERE list_contains(tags, 'frida');
+WHERE 'frida' = ANY(tags);
