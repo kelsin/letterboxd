@@ -5,6 +5,9 @@ gateways:
 
 default_gateway: tobiko_cloud
 
+model_naming:
+  infer_names: true
+
 model_defaults:
-  dialect: postgresql
+  dialect: postgres
   start: 2025-02-11

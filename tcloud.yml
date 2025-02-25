@@ -1,0 +1,5 @@
+projects:
+  letterboxd:
+    url: https://internal.cloud.tobikodata.com/sqlmesh/tobiko/kelsin
+    gateway: tobiko_cloud
+default_project: letterboxd
